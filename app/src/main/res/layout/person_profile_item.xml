@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <IconTextView
+        android:id="@+id/icon"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingTop="@dimen/person_module_icon_padding_top"
+        android:textColor="@color/person_module_icon"
+        android:textSize="@dimen/person_module_icon_size" />
+
+    <LinearLayout
+        android:id="@+id/information_details"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/person_module_content_min_height"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/person_content_padding"
+            android:paddingTop="@dimen/person_content_padding"></LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/person_module_divider_height"
+            android:layout_marginTop="@dimen/person_module_divider_margin_top"
+            android:background="@color/person_module_divider" />
+
+    </LinearLayout>
+
+</LinearLayout>

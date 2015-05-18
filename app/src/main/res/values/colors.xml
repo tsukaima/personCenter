@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="person_toolbar">#ffdfb848</color>
+    <color name="person_edit">#ffdfb848</color>
+    <color name="person_text">#ff433f44</color>
+    <color name="person_module_divider">#ffe7e7e7</color>
+    <color name="person_module_icon">#ffb4afb3</color>
+</resources>
